@@ -12,36 +12,14 @@ interface IHomeProps {
 const Home: FC<IHomeProps> = ({ classes = {} }) => (
   <>
     <main className={classes.container}>
-      <Text h1>Ranker</Text>
+      <Text h1>Ranker (SoM)</Text>
       <Text>The lightweight ranking calculator.</Text>
       <Planner />
     </main>
     <footer className={classes.footer}>
       <Text style={{ marginBottom: 16 }}>Made with ❤ by Apparent - Earthshaker (EU)</Text>
-      <Text style={{ marginBottom: 16, fontWeight: 700 }}>
-        In-game donations are appreciated <span role="img" aria-label="smiley-face">😊</span>
-      </Text>
-      <div>
-        <OutboundLink
-          style={{ textDecoration: 'none' }}
-          rel="noopener noreferrer"
-          to="https://www.twitch.tv/apparentt"
-          target="_blank"
-          eventLabel="Twitch Link"
-        >
-          <Text caption>Twitch</Text>
-        </OutboundLink>
-        &nbsp;<span style={{ color: 'white '}}>|</span>&nbsp;
-        <OutboundLink
-          style={{ textDecoration: 'none' }}
-          rel="noopener noreferrer"
-          to="https://www.youtube.com/c/apparentt"
-          target="_blank"
-          eventLabel="YouTube Link"
-        >
-          <Text caption>YouTube</Text>
-        </OutboundLink>
-      </div>
+      <Text style={{ marginBottom: 16 }}>hastily updated to SoM values by Lis - Dreadnaught (EU)</Text>
+      <Text style={{ marginBottom: 16 }}>don't forget kids, ranking is cringe!</Text>
     </footer>
   </>
 );

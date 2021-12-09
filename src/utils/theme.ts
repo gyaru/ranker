@@ -1,4 +1,4 @@
-import { Color } from "csstype";
+import * as CSS from 'csstype';
 
 interface ThemeMedia {
   mobile?: string;
@@ -8,19 +8,19 @@ interface ThemeMedia {
 
 export interface Theme {
   fontFamily: string;
-  colorPrimary: Color;
-  colorSecondary: Color;
-  colorRed: Color;
-  colorGreen: Color;
-  colorBlue: Color;
-  colorAmber: Color;
-  colorGrey: Color;
-  colorDark: Color;
-  textDark: Color;
-  textSecondary: Color;
-  textLight: Color;
+  colorPrimary: string;
+  colorSecondary: string;
+  colorRed: string;
+  colorGreen: string;
+  colorBlue: string;
+  colorAmber: string;
+  colorGrey: string;
+  colorDark: string;
+  textDark: string;
+  textSecondary: string;
+  textLight: string;
   colorRandom(): string;
-  colorActive: Color;
+  colorActive: string;
   media: ThemeMedia;
 }
 

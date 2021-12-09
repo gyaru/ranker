@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ThemeProvider } from "react-jss";
 import "reset-css";
-import "circular-std";
+import "@vetixy/circular-std";
 
 import { RouteConfiguration } from "./index.d";
 import "./index.css";

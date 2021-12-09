@@ -37,13 +37,11 @@ export default ({
           return setSliderValue(value)
         }}
         defaultValue={1}
-        handleStyle={[{
-          background: theme.colorActive,
+        handleStyle={{
+          backgroundColor: theme.colorActive,
           borderColor: theme.colorActive
-        }]}
-        trackStyle={[{
-          background: theme.colorActive
-        }]}
+        }}
+        trackStyle={{ backgroundColor: theme.colorActive}}
         min={1}
         max={99}
       />
